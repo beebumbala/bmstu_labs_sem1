@@ -1,5 +1,5 @@
-#ifndef BMSTU_LABS_SEM1_TASKS_H
-#define BMSTU_LABS_SEM1_TASKS_H
+#pragma once
+
 #include <string>
 
 // task1
@@ -42,6 +42,3 @@ float count_a_percent(const std::string& input);
 
 // task11
 std::string replace_can(const std::string& input);
-
-
-#endif
