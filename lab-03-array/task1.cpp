@@ -9,9 +9,9 @@ void multi_2(int* input, const unsigned int size) {
     }
 }
 
-void reduce_a(int* input, const unsigned int size) {
+void reduce_a(int* input, const unsigned int size, const int a) {
     for (int i = 0; i < size; ++i) {
-        input[i] -= 2;
+        input[i] -= a;
     }
 }
 
