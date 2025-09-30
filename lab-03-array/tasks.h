@@ -4,7 +4,7 @@
 
 // task1
 void multi_2(int* input, unsigned int size);
-void reduce_a(int* input, unsigned int size);
+void reduce_a(int* input, const unsigned int size, const int a);
 void div_on_first(float* input, unsigned int size);
 
 // task2
@@ -18,7 +18,7 @@ float mean_k(const int* input, unsigned int size, int s1, int s2);
 // task3
 void replace_3(int* input);
 
-//task4
+// task4
 void remove_first_negative(int* input, int& size);
 void remove_last_even(int* input, int& size);
 

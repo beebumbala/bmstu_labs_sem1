@@ -3,12 +3,12 @@
 
 
 float mean(const std::vector<float>& input) {
-    if (!input.size()) {
+    if (input.empty()) {
         return 0;
     }
     float summ = 0;
-    for (int i = 0; i < input.size(); ++i) {
-        summ += input[i];
+    for (const auto i: input) {
+        summ += i;
     }
     return summ / input.size();
 }
